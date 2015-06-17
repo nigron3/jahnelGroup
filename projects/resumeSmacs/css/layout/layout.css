@@ -1,0 +1,393 @@
+/* list of colors 
+black
+white
+yellow
+blue
+red
+
+rgba()
+
+rgba(255,0,0, .3);
+background-color: rgba(255,0,0,.2);
+background-color:rgba(255,0,0, .5);
+background-color:rgba(0,0,255, .5);
+background-color:rgba(255,255, 0, .5);
+background-color: rgba(0,0, 255,.2);
+color:rgba(0,0, 255,0);
+
+
+
+*/
+
+body{
+	background-color:black;
+	font-size: 24px;
+}
+
+.navbar-toggle{
+	border:1px solid white;
+}
+
+.navbar-toggle span{
+	color:black;
+}
+
+.glyphicon-cog{
+	color:yellow;
+}
+
+
+h1{
+	color:white;
+}
+
+h2{
+	color:white;
+}
+
+h3{
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+a{
+	color:white;
+}
+
+span{
+	color:white;
+}
+
+button, button.btn{
+	background-color: rgba(255,0,0, .3);
+	color:white;
+	border:1px solid red;
+}
+
+
+nav.mainNavigation a:hover{
+	background-color:black;
+}
+
+.footerContainer
+{
+	background-color:gray;
+}
+
+.contactFormContainer
+{
+	border:2px solid red;
+
+}
+
+hr.contactFormHr{
+	color:white;
+	border-color:white;
+}
+
+.contactForm input[type=text]
+{
+	background-color: rgba(255,0,0,.2);
+}
+
+#contactFormUsertextInput{
+
+	background-color: rgba(0,0,255,.2);
+}
+
+hr.bottomHr{
+	color:white;
+}
+
+
+
+/* specific to top navbar */
+nav.mainNavigation li.active.navIndexLi{
+	border-bottom: 5px solid red;
+}
+
+nav.mainNavigation li.active.navResumeLi{
+
+	border-bottom: 5px solid blue;
+}
+
+nav.mainNavigation li.active.navTechnologiesLi{
+	border-bottom: 5px solid yellow;
+}
+
+
+
+
+nav.mainNavigation li.active.navProjectsLi{
+	border-bottom: 5px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* specific to index page with some content in projects as well as technologies */
+
+
+span.btnTopTitleSpan{
+	color:white;
+}
+
+button.scrollDownButton{
+	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	
+}
+
+hr.portfolioTitleHr
+{
+	color:red; /*for IE*/
+	border-color:red; /* for other browsers*/
+}
+
+
+
+hr.developerNameHr{
+	color:yellow;
+	border-color:yellow;
+}
+
+hr.developerTownHr{
+	color:blue;
+	border-color:blue;
+}
+
+hr.developerProfileTextTitleHr{
+	color:blue;
+	border-color:blue;
+}
+
+
+
+
+hr.technologySkillSetTitleHr{
+	color:yellow;
+	border-color:yellow;
+}
+
+hr.recentProjectsTitleHr{
+	color:yellow;
+	border-color: yellow;
+}
+
+
+.technologySkillSetGraphicUserInterfaceDiv{
+
+	background-color:rgba(255,0,0, .5);
+	border-top: 2px solid red;
+	border-left:2px solid red;
+	border-bottom: 2px solid red;
+	border-right: 2px solid black; /*might not need*/
+
+	
+}
+
+.technologySkillSetGraphicMidTierDiv{
+
+	background-color:rgba(0,0,255, .5);
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid black; /*might not need*/
+}
+
+
+.technologySkillSetGraphicDatabaseDiv{
+	
+	background-color:rgba(255,255, 0, .5);
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	border-right: 2px solid yellow; /*might not need*/
+	
+}
+
+.projectPreviewLeftDiv{
+	border: 2px solid blue;
+}
+
+.projectPreviewRightDiv{
+	border: 2px solid blue;
+}
+
+
+
+
+/*      specific to resume page */
+
+.btnResumeNav{
+
+	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	color:rgba(0,0, 255,0);
+}
+
+li.active .btnResumeNav{
+	color:white;
+}
+
+
+hr.resumeContentHr
+{
+	color:red;
+	border-color:red;
+}
+
+h4.resumeContentHeaderTitle{
+	color:blue;
+}
+
+h3.resumeContentSectionTextTitle{
+	color:yellow;
+}
+
+
+
+/*  specific to projects page */
+
+nav.projectExampleTechnologyPillsNav li a{
+	color:white;	
+	background-color:rgba(0,0,255, .2);
+	border:solid 2px blue;
+}
+
+
+
+span.projectExampleDescriptionTitleImageVerticalLine{
+	color:yellow;
+}
+
+
+
+
+/* specific to technologies page */
+
+
+
+nav.tenologiesUserInterfaceNav li a{
+	color:white;
+	background-color:rgba(255,0,0, .2);
+	border:solid 2px red;
+}
+
+hr.exampleDescriptionTitleHr{
+	color:red;
+	border-color: red;
+}
+
+
+
+.exampleAreaTitleContainer h1{
+	color:white;
+}
+.exampleAreaTitleContainer h2{
+	color:white;
+}
+
+.exampleAreaTitleContainer span{
+	color:blue;
+}
+
+.exampleCodeContainer{
+
+	border:2px solid red;
+
+
+}
+
+.exampleDescriptionTextFooterDiv{
+	background-color:rgba(0,0,255,.2);
+	border: 1px solid blue;
+	
+}
+
+.redcog{
+	color:red;
+	opacity: .3;
+}
+.redcog.active{
+	
+	opacity: 1;
+}
+
+.bluecog{
+	color:blue;
+	opacity: .3;
+}
+.bluecog.active{
+	
+	opacity: 1;
+}
+
+
+.yellowcog{
+	opacity: .3;
+}
+.yellowcog.active{
+	
+	opacity: 1;
+}
+
+#technologyPillsUL li.ui a{
+	background-color:rgba(255,0,0, .2);
+	border-color:red;
+
+
+}
+
+#technologyPillsUL li.midTier a{
+	background-color:rgba(0,0,255, .2);
+	border-color:blue;
+}
+
+#technologyPillsUL li.database a{
+	background-color:rgba(255,255,0, .2);
+	border-color:yellow;
+}
+
+
+
+
+
+
+
+
+/*               tablets                   */
+@media screen and (max-width: 992px) {
+
+	body{
+		font-size:16px;
+	}
+
+
+
+
+}
+
+	/*               tablets                   */
+@media screen and (max-width: 768px) {
+
+	body{
+		font-size:14px;
+	}
+
+
+
+
+}

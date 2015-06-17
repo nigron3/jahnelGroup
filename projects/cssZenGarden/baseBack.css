@@ -1,0 +1,145 @@
+@media screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
+
+h1
+{
+	
+	text-align: center;
+	font-size:64px	;
+	margin: 0 25%;
+	background-color: #d3d3d3;
+	opacity:.9;
+	border-radius: 5px;
+}
+
+
+h2
+{
+	text-align: center;
+	margin: 0 25%;
+	background:#d3d3d3;
+	font-size:32px;
+	opacity: .9;	
+	
+	border-radius: 5px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+
+.page-wrapper{
+	overflow: hidden;
+	/*height: 400px;*/
+	width: 70%; 
+	margin: 0 auto;
+
+
+	
+}
+
+div[role=article]
+{
+
+
+}
+
+
+
+
+
+
+.page-wrapper div{
+
+	background-color: #d3d3d3;
+	opacity: .75;
+	border-radius: 5px;
+
+	clear: none;
+	}
+a{
+	color: #ff69b4;
+}
+a:hover{
+	font-size: 24px;
+}
+
+aside
+{
+	width:0px;
+	height:0px;
+}
+
+section
+{
+	display:block;
+}
+
+
+#zen-supporting
+{
+	padding-left: 10%;
+}
+
+
+#zen-supporting div
+{
+	display: inline-block;
+	text-decoration: center;
+	clear:none;
+	
+
+}
+
+#zen-supporting #zen-explanation
+{
+
+		width: 40%;
+		
+		vertical-align: top;
+	
+}
+
+#zen-supporting #zen-participation
+{
+		padding-left: 10%;
+		width: 30%;
+		line-height:20px;
+		vertical-align: top;
+}
+}
+#zen-supporting #zen-benefits
+{
+	width: 30%;
+	line-height:20px;
+	vertical-align: top;
+}
+#zen-supporting #zen-requirements
+{
+	display: none;
+}
+
+#zen-preamble
+{
+	padding-left: 10%;
+}
+#zen-summary
+{
+	padding-left: 10%}
+
+footer
+{
+	display: none;
+}
+
+
+

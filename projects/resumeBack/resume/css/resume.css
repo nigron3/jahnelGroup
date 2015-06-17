@@ -1,0 +1,63 @@
+/*to do :
+replace icons in navigation
+
+*/
+
+nav.mainNavigation li.active{
+	border-bottom: 5px solid blue;
+}
+
+nav.resumeNav li{
+	font-size:2em;
+	list-style-image: url();
+}
+
+nav.resumeNav li.active{
+	
+	 /*list-style-type: square; /*place holder for replacing with icon */
+	 /*list-style-image: */
+}
+
+nav.resumeNav li a{
+	text-decoration: none;
+	 /*list-style-type: square; /*place holder for replacing with icon */
+	 /*list-style-image: */
+}
+.clearfix{
+	margin-bottom: 2em;
+}
+
+.btnResumeNav{
+	margin-right: 1em;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom:10px;
+	font-size:1em;
+	width:50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	color:rgba(0,0, 255,0);;
+}
+
+li.active .btnResumeNav{
+	color:white;
+}
+
+
+
+
+hr.resumeContentHr
+{
+	color:red;
+	border-color:red;
+}
+
+h4.resumeContentHeaderTitle{
+	color:blue;
+}
+
+h3.resumeContentSectionTextTitle{
+	color:yellow;
+}

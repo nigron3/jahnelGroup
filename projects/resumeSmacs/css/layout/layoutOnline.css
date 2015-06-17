@@ -1,0 +1,315 @@
+/* list of colors 
+white
+black
+#89E8E8
+#78968D
+#9EA3C0
+
+rgba()
+#9EA3C0;
+background-color: #9EA3C0;
+background-color: #9EA3C0;
+background-color: #78968D;
+background-color: #89E8E8;
+background-color: #78968D;
+background-color: #78968D;
+
+*/
+
+body{
+	background-color:white;
+	font-size: 24px;
+}
+
+.navbar-toggle{
+	border:1px solid black;
+}
+
+.navbar-toggle span{
+	color:white;
+}
+
+.glyphicon-cog{
+	color:#89E8E8;
+}
+
+
+h1{
+	color:black;
+}
+
+h2{
+	color:black;
+}
+
+h3{
+	color:black;
+}
+
+p{
+	color:black;
+}
+
+a{
+	color:black;
+}
+
+span{
+	color:black;
+}
+
+button, button.btn{
+	background-color: #9EA3C0;
+	color:black;
+	border:1px solid #9EA3C0;
+}
+
+
+nav.mainNavigation a:hover{
+	background-color:white;
+}
+
+.footerContainer
+{
+	background-color:gray;
+}
+
+.contactFormContainer
+{
+	border:2px solid #9EA3C0;
+
+}
+
+hr.contactFormHr{
+	color:black;
+	border-color:black;
+}
+
+.contactForm input[type=text]
+{
+	background-color: #9EA3C0;
+}
+
+#contactFormUsertextInput{
+
+	background-color: rgba(0,0,255,.2);
+}
+
+hr.bottomHr{
+	color:black;
+}
+
+
+/* specific to index page with some content in projects as well as technologies */
+
+
+span.btnTopTitleSpan{
+	color:black;
+}
+
+button.scrollDownButton{
+	background-color: #78968D;
+	border: 1px solid #78968D;
+	
+}
+
+hr.portfolioTitleHr
+{
+	color:#9EA3C0; /*for IE*/
+	border-color:#9EA3C0; /* for other browsers*/
+}
+
+
+
+hr.developerNameHr{
+	color:#89E8E8;
+	border-color:#89E8E8;
+}
+
+hr.developerTownHr{
+	color:#78968D;
+	border-color:#78968D;
+}
+
+hr.developerProfileTextTitleHr{
+	color:#78968D;
+	border-color:#78968D;
+}
+
+
+
+
+hr.technologySkillSetTitleHr{
+	color:#89E8E8;
+	border-color:#89E8E8;
+}
+
+hr.recentProjectsTitleHr{
+	color:#89E8E8;
+	border-color: #89E8E8;
+}
+
+
+.technologySkillSetGraphicUserInterfaceDiv{
+
+	background-color: #9EA3C0;
+	border-top: 2px solid #9EA3C0;
+	border-left:2px solid #9EA3C0;
+	border-bottom: 2px solid #9EA3C0;
+	border-right: 2px solid white; /*might not need*/
+
+	
+}
+
+.technologySkillSetGraphicMidTierDiv{
+
+	background-color: #78968D;
+	border-top: 2px solid #78968D;
+	border-bottom: 2px solid #78968D;
+	border-right: 2px solid white; /*might not need*/
+}
+
+
+.technologySkillSetGraphicDatabaseDiv{
+	
+	background-color: #89E8E8;
+	border-top: 2px solid #89E8E8;
+	border-bottom: 2px solid #89E8E8;
+	border-right: 2px solid #89E8E8; /*might not need*/
+	
+}
+
+.projectPreviewLeftDiv{
+	border: 2px solid #78968D;
+}
+
+.projectPreviewRightDiv{
+	border: 2px solid #78968D;
+}
+
+
+
+
+/*      specific to resume page */
+
+.btnResumeNav{
+
+	background-color: #78968D;
+	border: 1px solid #78968D;
+	background-color: #78968D;;
+}
+
+li.active .btnResumeNav{
+	color:black;
+}
+
+
+hr.resumeContentHr
+{
+	color:#9EA3C0;
+	border-color:#9EA3C0;
+}
+
+h4.resumeContentHeaderTitle{
+	color:#78968D;
+}
+
+h3.resumeContentSectionTextTitle{
+	color:#89E8E8;
+}
+
+
+
+/*  specific to projects page */
+
+nav.projectExampleTechnologyPillsNav li a{
+	color:black;	
+	background-color:rgba(0,0,255, .2);
+	border:solid 2px #78968D;
+}
+
+
+
+span.projectExampleDescriptionTitleImageVerticalLine{
+	color:#89E8E8;
+}
+
+
+
+
+/* specific to technologies page */
+
+
+
+nav.tenologiesUserInterfaceNav li a{
+	color:black;
+	background-color:rgba(255,0,0, .2);
+	border:solid 2px #9EA3C0;
+}
+
+hr.exampleDescriptionTitleHr{
+	color:#9EA3C0;
+	border-color: #9EA3C0;
+}
+
+
+
+.exampleAreaTitleContainer h1{
+	color:black;
+}
+.exampleAreaTitleContainer h2{
+	color:black;
+}
+
+.exampleAreaTitleContainer span{
+	color:#78968D;
+}
+
+.exampleCodeContainer{
+
+	border:2px solid #9EA3C0;
+
+
+}
+
+.exampleDescriptionTextFooterDiv{
+	background-color:rgba(0,0,255,.2);
+	border: 1px solid #78968D;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*               tablets                   */
+@media screen and (max-width: 992px) {
+
+	body{
+		font-size:16px;
+	}
+
+
+
+
+}
+
+	/*               tablets                   */
+@media screen and (max-width: 768px) {
+
+	body{
+		font-size:14px;
+	}
+
+
+
+
+}

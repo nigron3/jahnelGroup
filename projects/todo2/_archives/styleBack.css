@@ -1,0 +1,67 @@
+
+body {
+	margin:50px 0px; padding:0px;
+	text-align:center;
+	}
+
+/* container for all of the content in the application*/
+#main
+{
+	margin: 100px auto;
+	height:2000px;
+	width:400px;
+}
+
+
+/*all of the buttons */
+.buttonOnForm
+{
+	background-color: green;
+	color:white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	height:30px;
+	width: 150px;
+	float:right;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* input text box for entering tasks*/
+#tasktext
+{
+	width: 250px;
+	color: #A9A9A9;/* light gray */
+}
+
+/* main div that contains al of the tasks*/
+#list{
+	width: 400px;
+	height:300px;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+	overflow: scroll;
+
+}
+
+
+a
+{
+	color:blue;
+}
+
+/*div that contains both anchors for edit and delete*/
+.editDiv{
+	float:right;
+	display:inline;
+
+}
+
+/*class for when a task is checked off as complete */
+.finishedItem{
+	text-decoration:line-through;
+}
+
+

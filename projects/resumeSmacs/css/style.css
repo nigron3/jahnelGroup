@@ -1,0 +1,146 @@
+
+
+
+
+header h1{
+	font-size: 6em;
+}
+header h2{
+	font-size: 3em;
+}
+
+header h3{
+	font-size: 2em;
+}
+
+button.scrollDownButton{
+	text-align: center;
+	padding-left: 0;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:2em;
+	font-weight: thin;
+	width:100px;
+	height: 100px;
+	border-radius: 50px;
+
+	
+}
+
+
+hr{
+	display:inline;
+}
+
+
+
+
+.developerProfileContainer{
+	margin-top:.3em;
+
+}
+
+.technologySkillSetContainer{
+	margin-top:3em;
+}
+
+.technologySkillSetGraphicContainer{
+	margin-top:.75em;
+
+}
+
+.technologySkillSetGraphicContainer div{
+	vertical-align: center;
+	margin-top:1em;
+	padding-top:.5em;
+	padding-bottom:1.75em;
+}
+.btnSeeAllTechnolgiesContainer{
+	margin-top: 1em;
+}
+
+.recentProjectDivContainer{
+	margin-top:1em;
+}
+
+
+
+
+.btnSeeAllTechnolgies{
+
+}
+
+
+
+
+.developerTitleContainer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.recentProjectsTitle{
+	text-align:center;
+}
+
+.technologySkillSetTitle{
+	text-align:center;
+}
+
+.technologySkillSetGraphicUserInterfaceDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+
+.technologySkillSetGraphicMidTierDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	
+}
+
+.technologySkillSetGraphicDatabaseDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.devloperProfileImage{
+	height:200px;
+	width:100%;
+}
+
+.projectPreviewLeftDiv{
+
+	margin-right: 20px;
+height:200px;
+border-radius: 5px;
+}
+.projectPreviewRightDiv{
+	height:200px;
+	border-radius: 5px;
+}
+
+
+
+/*               tablets                   */
+@media screen and (max-width: 992px) {
+
+	
+
+
+
+
+}
+
+	/*               tablets                   */
+@media screen and (max-width: 768px) {
+
+	header h1{
+		font-size:3em;
+	}

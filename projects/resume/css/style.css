@@ -1,0 +1,199 @@
+
+nav.mainNavigation li.active{
+	border-bottom: 5px solid red;
+}
+
+span{
+	color:white;
+}
+span.btnTopTitleSpan{
+	color:white;
+}
+
+header h1{
+	font-size: 6em;
+}
+header h2{
+	font-size: 3em;
+}
+
+header h3{
+	font-size: 2em;
+}
+
+button.scrollDownButton{
+	text-align: center;
+	padding-left: 0;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:2em;
+	font-weight: thin;
+	width:100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	
+}
+
+
+hr{
+	display:inline;
+}
+
+
+hr.portfolioTitleHr
+{
+	color:red; /*for IE*/
+	border-color:red; /* for other browsers*/
+}
+
+hr.developerNameHr{
+	color:yellow;
+	border-color:yellow;
+}
+
+hr.developerTownHr{
+	color:blue;
+	border-color:blue;
+}
+
+hr.developerProfileTextTitleHr{
+	color:blue;
+	border-color:blue;
+}
+
+hr.technologySkillSetTitleHr{
+	color:yellow;
+	border-color:yellow;
+}
+
+hr.recentProjectsTitleHr{
+	color:yellow;
+	border-color: yellow;
+}
+
+.developerProfileContainer{
+	margin-top:.3em;
+
+}
+
+.technologySkillSetContainer{
+	margin-top:3em;
+}
+
+.technologySkillSetGraphicContainer{
+	margin-top:.75em;
+
+}
+
+.technologySkillSetGraphicContainer div{
+	vertical-align: center;
+	margin-top:1em;
+	padding-top:.5em;
+	padding-bottom:1.75em;
+}
+.btnSeeAllTechnolgiesContainer{
+	margin-top: 1em;
+}
+
+.recentProjectDivContainer{
+	margin-top:1em;
+}
+
+
+
+
+.btnSeeAllTechnolgies{
+
+}
+
+
+
+
+.developerTitleContainer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.recentProjectsTitle{
+	text-align:center;
+}
+
+.technologySkillSetTitle{
+	text-align:center;
+}
+
+.technologySkillSetGraphicUserInterfaceDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	background-color:rgba(255,0,0, .5);
+	border-top: 2px solid red;
+	border-left:2px solid red;
+	border-bottom: 2px solid red;
+	border-right: 2px solid black; /*might not need*/
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+
+.technologySkillSetGraphicMidTierDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	background-color:rgba(0,0,255, .5);
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid black; /*might not need*/
+	
+	
+}
+
+.technologySkillSetGraphicDatabaseDiv{
+	font-size:.75em;
+	text-align:center;
+	height:25px; /*subject to change */
+	background-color:rgba(255,255, 0, .5);
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	border-right: 2px solid yellow; /*might not need*/
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.devloperProfileImage{
+	height:200px;
+	width:100%;
+}
+
+.projectPreviewLeftDiv{
+	border: 2px solid blue;
+	margin-right: 20px;
+height:200px;
+border-radius: 5px;
+}
+.projectPreviewRightDiv{
+	border: 2px solid blue;
+	height:200px;
+	border-radius: 5px;
+}
+
+
+
+/*               tablets                   */
+@media screen and (max-width: 992px) {
+
+	
+
+
+
+
+}
+
+	/*               tablets                   */
+@media screen and (max-width: 768px) {
+
+	header h1{
+		font-size:3em;
+	}

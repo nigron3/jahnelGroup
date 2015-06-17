@@ -1,0 +1,38 @@
+.btnShadeEveryTenRows
+{
+
+}
+
+.btnShadeEveryOtherRow
+{
+
+}
+
+.btnResetTable
+{
+
+}
+
+.shadedTr
+{
+
+}
+
+table 
+{
+	border:1px solid black;
+	border-collapse: collapse;
+
+}
+table td 
+{
+	border:1px solid black;
+	margin: none;
+
+}
+
+.formatedTenth{
+	
+	border-bottom:5px solid black;
+	
+}

@@ -1,0 +1,176 @@
+<html>
+
+	<head>
+	<link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet"/> 
+	<link href="css/base.css" rel="stylesheet"/> 
+	<link href="css/technologies.css" rel="stylesheet"/> 
+	<link href="css/layout/layout.css" rel="stylesheet"></link>
+	<script src='resources/jquery/jquery.js'> </script>
+	<script src='resources/bootstrap/js/bootstrap.js'> </script>
+	<script src='js/contactForm.js'></script>
+	<script src='js/technologyGraphic.js'> </script>
+	<script src='js/technologyPillsNav.js'></script>
+	</head>
+
+	<body>
+
+<a name='topAnchor'></a>
+		<div class='navbar'>
+	<div class='container'>
+		<nav class='mainNavigation '>
+		<button type='button' class='navbar-toggle pull-left' data-toggle="collapse" data-target=".navHeaderCollapse"> <span class='sr-only'> toggle navigation </span>
+
+
+			 <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        |||
+		</button>
+		<div class ='collapse navbar-collapse navHeaderCollapse'>
+			<ul class='nav navbar-nav navbar-right'>
+				<li class=' navIndexLi'><a href='index.html'>About</a></li>
+				<li  class='navResumeLi'><a href='resume.html'>Resume</a></li>
+				<li  class=' active navTechnologiesLi'><a href='technologies.html'>Technologies</a></li>
+				<li class='navProjectsLi'><a href='projects.html'>Projects</a></li>
+			</ul>
+		</div>
+		</nav>
+		</div>
+	</div>
+
+		<div class='row clearfix'> </div>
+		
+
+		<div class='pageWrapper col-md-12 col-xs-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-0'>
+		<section class='technologiesSkillSetGraphic' >
+
+			<div class='row'>
+				<div  id='technologySkillSetGraphicContainer' class='technologySkillSetGraphicContainer'>
+					<div class='technologySkillSetGraphicUserInterfaceDiv col-xs-offset-1 col-xs-3'>
+						<p class='hidden-xs'> User Interface</p>
+						<p class='visible-xs'> UI</p>
+					</div>
+					<div class='technologySkillSetGraphicMidTierDiv col-xs-4'>
+						<p class='hidden-xs'>Mid Tier</p>
+						<p class='visible-xs'>Back</p>
+						</div>
+					<div class='technologySkillSetGraphicDatabaseDiv col-xs-3'>
+						<p class='hidden-xs'> Database</p>
+						<p class='visible-xs'> DBA </p>
+					</div>
+				</div>
+			</div>
+
+		
+			<!--place holder for dimond graphics need to work on centering -->
+			<div class ='row span4 text-center technologySkillSetDimondGraphicContainer hidden-xs hidden-sm'>
+				<div class='col-md-4'>  <span> <i  id='redcog' class='glyphicon glyphicon-cog redcog active'></i> </span> </div>
+				<div class='col-md-4'>  <span> <i id='bluecog' class='glyphicon glyphicon-cog bluecog'></i> </span>  </div>
+				<div class='col-md-4'>   <span> <i id='yellowcog' class='glyphicon glyphicon-cog yellowcog'></i> </span>  </div>
+			</div>
+		</section>
+
+		<section  id='#technologiesSelectionPillsSection' class='technologiesSelectionPillsSection'>
+		<nav class='tenologiesUserInterfaceNav col-md-12'>
+			<button  id='btnTechnologyPillNav' class='visible-xs'> UI Technologies <i class='caret'> </i> </button>
+			<ul  id='technologyPillsUL'  class="nav nav-pills collapse navbar-collapse">
+				<li class='ui col-md-offset-1 col-md-2'><a>HTML</a></li>
+				<li class=' ui col-md-2'><a>Javascript</a></li>
+				<li class='ui col-md-2'><a>JQuery</a></li>
+				<li class=' ui col-md-2'><a>BootStrap</a></li>
+				<li class=' ui col-md-2'><a>Angular JS</a></li>
+			</ul>
+		</nav>
+
+		</section>
+		<div class='row clearfix'> </div>
+		<!--might want to use articles here -->
+		<section class ='technologiesExamplesSection'>
+			<div class='row'>
+				<div class='exampleAreaContainer col-md-offset-1 col-md-6'>
+					<div class='row exampleAreaTitleContainer '>
+						<h1 class='technologyNameTitle'>  Bootstrap</h1> <span class='technologyNameTitleVerticlePipe'> | </span>
+						<h2 class='technologyExampleTitle'> Example Name</h2>
+					</div>	
+					<div class='row exampleCodeContainer'>
+						<span class='codeExampleView'> </span>
+					</div>
+					<div class='row codeExampleButtonContainer'>
+						<button class='btn btnCodeExampleViewDemo col-md-offset-5 col-md-3'> View Demo</button>
+						<button class=' btn bthnCodeExampleFullCode col-md-offset-1 col-md-3'> See Full Code</button>
+					</div>
+				</div>
+					<div class='exampleDescrptionContainer col-md-4'>
+						<div class='row exampleDescriptionTitleContainer'>
+								<h2 class='exampleDescriptionTitle  col-xs-8 col-sm-6 col-md-6'>Contribution</h2>
+								<hr class='exampleDescriptionTitleHr hidden-xs col-md-4'>
+						</div>
+						<div class='row exampleDescriptionTextContaner'> 
+							<span class='arrowIcon'> </span> <!--placehoder for icon -->
+							<p> Dolorern amusant vol-luptatia voluptiunte sinitio officiam quam faccaec aesciet qui non el il id que eaquamet antesendae nihic te pa doluevevpta as evelis ide nulpa quatur, sequam con nus dolessitis moluptat laceptatis nul-pario tectur lecdolupta as evelis ide nulpa quatur, o tectur lecti beatiame Dolorern amusant vol-luptatia voluptiunte sinitio officiam quam faccaec a sequam con nus dolessitis moluptat laceptatis nul-pario tectur lecti beatiame</p>
+						</div>
+						<div class='row exampleDescriptionTextFooterDiv hidden-xs'>
+						</div>
+					</div>
+			</div>
+		</section>
+
+		<section class='preFooter'>
+			<div class='row'>
+				<div class='btnhideContainer col-xs-1 col-md-1'>
+					<button id='btnHide' class='btn btnHide'> - </button> <span id='btnHideTitleSpan' class='btnHideTitleSpan'>Hide</span>
+				</div>
+				<div class='btnhideContainer col-xs-1 pull-right col-md-offset-10 col-md-1'>
+					<a href='#topAnchor'><button class='btn btnTop'> <i class='glyphicon glyphicon-upload'> </i> </button></a> <span class='btnTopTitleSpan'>Top</span>
+				</div>
+			</div>
+		</section>
+	<footer>
+			<div class='row footerContainer'>
+				<div class='contactFormAreaContainer col-sm-offset-6  col-sm-6'>
+				 	<article class='contactFormArea'>
+				 		<div class='row'>
+				 			<h3 class='contactFormTitle'> Get In Contact</h3>
+				 		</div>
+				 		<div class='row'>
+				 			<hr class='contactFormHr col-xs-10 col-sm-10'>
+				 		</div>
+				 		<div class='row'>
+					 		<div class='contactFormContainer col-sm-11'>
+
+					 			<form class='contactForm '>
+					 			<div class='textInputContainer col-xs-12 col-sm-12 col-md-6 text-left pull-right'>
+					 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput' type='text'> </textarea>
+					 			</div>
+					 				<div class='userInfoContainer col-sm-6 col-sm-offset-6 col-md-offset-0'>
+					 					<div class='row'>
+					 						<input id='contactFormNameInput' class='contactFormTextInput' type='text' value="Your Name"/>
+					 					</div>
+					 					<div class='row'>
+					 						<input id='contactFormEmailInput' class='contactFormTextInput' type='text' value="Your Email"/>
+					 					</div>
+					 					<div class='row '>
+					 						
+											
+											<span class=' col-xs-4'> 4+4 </span>	
+											<input type ='text'  id='robocheckTextInput' class='robocheck  col-xs-2 ' size='2' > 
+											
+					 	
+					 						<button id='btnContactFormSubmit' class=' btn btnContactFormSubmit col-xs-3  pull-right ' type='button' value='Submit'> Submit</button>
+					 						
+					 					</div>
+					 				</div>
+					 			</form>
+					 		</div>
+				 		</div>
+				 	</article>
+				 	<div class='row'>
+				 	<hr class='bottomHr'>
+				 	 </div>
+				 </div>
+			</div>
+		</footer>
+		</div>
+	</body>
+
+</html>

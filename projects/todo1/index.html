@@ -1,0 +1,21 @@
+<html>
+	<head>
+	
+<link rel="stylesheet"	href="style.css">
+	</head>
+	<body>
+	
+	<div id='main'>
+		<h1> To-Do List</h1>
+			<form  onsubmit="return false;">
+				<input id='tasktext' name="task" type="text" value="To-do" onfocus="cleartext(this)" size='40'> </input>
+				<input id='submitbutton' type= "button" value="ADD" onclick="add(task.value),place(placeholdertext)" > </input>
+				<div id ='list' name ="list"> 
+					<div id="placeholdertext"> <p id="placeholdertext" name="placeholdertext" style="display:inline"> tasks: </p> </br></div>
+				</div>
+			</form>
+		</div>
+		<script src="main.js"> </script>
+	</body>
+
+</html>

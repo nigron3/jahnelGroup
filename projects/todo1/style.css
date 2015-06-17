@@ -1,0 +1,56 @@
+
+#main
+{
+	margin:100px auto;
+	height:2000px;
+	width:400px;
+	background-color: white;
+	
+}
+
+
+
+#submitbutton
+{
+	background-color: green;
+	color:white;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	height:30px;
+	width: 100px;
+	float:right;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+
+#tasktext
+{
+	width:275px;
+	color: #A9A9A9;
+}
+
+#list
+{
+	width: 400px;
+	height:300px;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+
+}
+#editcontainer
+{
+	float: right;
+}
+
+a
+{
+	color:blue;
+}
+
+input[type="checkbox"]
+{
+
+}

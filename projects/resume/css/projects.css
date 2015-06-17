@@ -1,0 +1,83 @@
+nav.mainNavigation li.active{
+	border-bottom: 5px solid white;
+}
+
+div.pageWrapper{
+	font-size: 20px;
+}
+
+div.clearfix{
+	margin-bottom: 2em;
+}
+
+nav.projectExampleTechnologyPillsNav li a{
+	color:white;
+	padding:2px;
+	background-color:rgba(0,0,255, .2);
+	border-radius: 5px;
+	border:solid 2px blue;
+}
+
+
+img.projectExampleDescriptionTitleImage{
+	margin-left: .2em;
+	margin-right: none;
+	padding: 1.5em;
+	height:200px;
+
+}
+
+/* should i rename these? */
+img.projectExampleImageLaptop{
+	height:450px;
+	
+}
+img.projectExampleImageMobile{
+	height:400px;
+	
+}
+
+span{
+	color:white;
+}
+/*need to verticaly align*/
+span.projectExampleDescriptionTitleImageVerticalLine{
+	color:yellow;
+	font-size: 5em;
+}
+
+button.btnProjectExampleOpenWebsite{
+	margin-left: 1em;
+	margin-bottom: 1em;
+
+}
+
+.projectPreviewLeftDiv{
+	margin-bottom:20px;
+	border: 2px solid blue;
+	margin-right: 20px;
+height:200px;
+border-radius: 5px;
+}
+.projectPreviewRightDiv{
+	border: 2px solid blue;
+	height:200px;
+	border-radius: 5px;
+}
+
+hr.recentProjectsTitleHr{
+	margin-left: none;
+	color:yellow;
+	border-color: yellow;
+}
+.recentProjectsTitle{
+	text-align:center;
+}
+
+.recentProjectDivContainer{
+	margin-top:1em;
+}
+
+.projectExampleDescriptionTitleImageContainer{
+	overflow: hidden;
+}

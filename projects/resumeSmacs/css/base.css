@@ -1,0 +1,93 @@
+
+nav
+{
+	font-size:.75em;
+}
+.navbar-toggle{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+hr{
+	padding:0;
+	margin:0;
+}
+
+button, button.btn{
+	margin-top:20px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+.preFooter span{
+	vertical-align: bottom;
+	padding-bottom: 20px;
+
+}
+
+
+.btnContactFormSubmit{
+	height:40px;
+
+}
+
+.preFooter{
+	
+	font-size:.75em;
+}
+
+
+.contactFormContainer
+{
+	border-radius: 5px;
+}
+
+.contactForm #robocheckTextInput{
+	width:4em;
+	overflow:hidden;
+}
+
+
+hr.contactFormHr{
+	margin-bottom:.5em;
+
+}
+
+hr.bottomHr{
+	margin-top:1em;
+}
+
+.contactForm input[type=text]
+{
+	border-radius: 2px;
+	border:none;
+	margin:5px;
+	height:40px;
+	width: 90%;
+}
+
+#contactFormUsertextInput{
+	text-indent:0;
+	text-align:left!important;
+	width:100%;
+	display:block;
+  	overflow:hidden;
+  	height:200px;
+	
+}
+
+
+
+
+
+
+
+

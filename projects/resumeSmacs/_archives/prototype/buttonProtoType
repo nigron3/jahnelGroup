@@ -1,0 +1,11 @@
+<html>
+<link href="resources/bootstrap/bootstrap.css" rel="stylesheet"/> 
+<link href="css/style.css" rel="stylesheet"/> 
+<link href="css/base.css" rel="stylesheet"/> 
+
+<body>
+<button class='btn'> </button>
+</body>
+
+
+</html>
